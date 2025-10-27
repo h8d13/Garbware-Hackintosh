@@ -4,11 +4,16 @@ Collection of personal references for restoring Mac's with Linux
 
 To check your chip in live env `lspci | grep "Apple Inc."`
 
-## Restoring T2 Macbook Pro 15,1 (Also applies to many of late 2017 to 2020 releases) 
+## Restoring T2 Macbook Pro 15,1 FULL-DISK INSTALL (Also applies to many of late 2017 to 2020 releases) 
 
 Followed disk partitionning step from MacOS. 
 
-Made the ISO following: [T2Fedora-Repo](https://github.com/t2linux/fedora-iso)
+> ⚠️ Important: Don't delete macOS partitions until WiFi is working post-install, do not do full-disk install or you'll lose the EFI firmware like I did. But here is how to do it regardless...
+
+Combine the ISO pieces from releases:[T2Fedora-Repo](https://github.com/t2linux/fedora-iso) 
+
+`cat name_of_iso_here.iso.* > full.iso`
+
 In the live env Wi-Fi worked out of the box, props to the devs. 
 
 Followed initial WiFi instructions to copy to EFI firmware, but I don't even think you really need to [T2-Wiki](https://wiki.t2linux.org/guides/wifi-bluetooth/)
@@ -23,7 +28,9 @@ Luckily I tethered USB internet from my phone and used https://wiki.t2linux.org/
 
 Also the method is to curl https://wiki.t2linux.org/tools/firmware.sh
 
-Then `./firmware` where the script was downloaded and pick is actually nbr `3`. A bit confusing. Then I picked option 5 for OS version and it downloads the system and extracts the Wifi/Bluetooth support.
+Then `./firmware` where the script was downloaded and pick is actually nbr `3`. A bit confusing. 
+
+Then I picked option 5 for OS version and it downloads the system and extracts the Wifi/Bluetooth support to our new full disk install.
 
 Most impressive part is that touchbar also works out of the box. Almost just like the original design. 
 
