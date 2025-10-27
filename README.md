@@ -22,7 +22,7 @@ Followed initial WiFi instructions to copy to EFI firmware from [T2-Wiki](https:
 
 Also had to go into into a TTY: and use `sudo localectl set-x11-keymap fr` for keymap to work with SDDM login screen. 
 
-But then post install wifi was gone again because, I'm an idiot and deleted everything from the Mac OS partitions.
+But then post install wifi was gone again because, I'm an idiot and deleted everything from the Mac OS partitions during Fedora installer.
 
 ### WIFI/BT
 
@@ -31,9 +31,9 @@ Luckily I tethered USB internet from my phone and used https://wiki.t2linux.org/
 
 Also the method is to curl https://wiki.t2linux.org/tools/firmware.sh
 
-Then `./firmware` where the script was downloaded and pick is actually nbr `3`. A bit confusing. 
+Then `./firmware.sh` where the script was downloaded and pick is actually nbr `3`. A bit confusing. 
 
-Then I picked option 5 for OS version and it downloads the system and extracts the Wifi/Bluetooth support to our new full disk install.
+Then I picked option 5 for OS version ``and it downloads the system and extracts the Wifi/Bluetooth support to our new full disk install.
 
 Most impressive part is that touchbar also works out of the box. Almost just like the original design. 
 
