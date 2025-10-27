@@ -31,6 +31,8 @@ Luckily I tethered USB internet from my phone and used https://wiki.t2linux.org/
 
 Also the method is to curl https://wiki.t2linux.org/tools/firmware.sh
 
+And make sure to have `sudo dnf install dmg2img`
+
 Then `./firmware.sh` where the script was downloaded and pick is actually nbr `3`. A bit confusing. 
 
 Then I picked option 5 for OS version ``and it downloads the system and extracts the Wifi/Bluetooth support to our new full disk install.
