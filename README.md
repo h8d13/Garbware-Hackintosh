@@ -16,7 +16,10 @@ Combine the ISO pieces from releases:[T2Fedora-Repo](https://github.com/t2linux/
 
 In the live env Wi-Fi worked out of the box, props to the devs. 
 
-Followed initial WiFi instructions to copy to EFI firmware, but I don't even think you really need to [T2-Wiki](https://wiki.t2linux.org/guides/wifi-bluetooth/)
+Followed initial WiFi instructions to copy to EFI firmware from [T2-Wiki](https://wiki.t2linux.org/guides/wifi-bluetooth/)
+
+**Please read it better than I did.**
+
 Also had to go into into a TTY: and use `sudo localectl set-x11-keymap fr` for keymap to work with SDDM login screen. 
 
 But then post install wifi was gone again because, I'm an idiot and deleted everything from the Mac OS partitions.
