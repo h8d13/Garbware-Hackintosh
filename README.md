@@ -11,10 +11,9 @@ Followed initial WiFi instructions to copy to EFI firmware from [T2-Wiki](https:
 **Please read it better than I did.**
 
 
-> ⚠️ Note: MacBook Pro 15,1 (2018) and other T2 Macs from 2017-2018 are at end-of-life for macOS support. **Maximum supported macOS: Sequoia (15.x)**. Your Mac will NOT receive further updates or any future versionsbeyond that point. Can see compatinility list [here](https://everymac.com/systems/by_capability/maximum-macos-supported.html)
+> ⚠️ Note: My model and other T2 Macs from 2017-2018 are past end-of-life for macOS support. **Maximum supported macOS: Sequoia (15.x)**. Your Mac will NOT receive further updates or any future versions beyond that version. Can see compatinility list [here](https://everymac.com/systems/by_capability/maximum-macos-supported.html)
 
-
-⚠️ Important: Don't delete macOS partitions until WiFi is working post-install, do not do full-disk install or you'll lose the EFI firmware like I did. But here is how to do it regardless...
+⚠️ Important: Don't delete macOS partitions until WiFi is working post-install, do not attempt full-disk install or you'll lose the EFI firmware like I did. But here is how to do it regardless...
 
 Combine the ISO pieces from releases:[T2Fedora-Repo](https://github.com/t2linux/fedora-iso) 
 
