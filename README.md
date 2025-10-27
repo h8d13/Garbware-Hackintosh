@@ -35,7 +35,7 @@ And make sure to have `sudo dnf install dmg2img`
 
 Then `./firmware.sh` where the script was downloaded and pick is actually nbr `3`. A bit confusing. 
 
-Then I picked option 5 for OS version ``and it downloads the system and extracts the Wifi/Bluetooth support to our new full disk install.
+Then I picked option 5 for OS version `Monterey` (Wiki recommends between `Monterey to Sonoma` and it downloads the system and extracts the Wifi/Bluetooth support to our new full disk install.
 
 Most impressive part is that touchbar also works out of the box. Almost just like the original design. 
 
