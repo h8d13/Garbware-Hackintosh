@@ -40,6 +40,8 @@ Then I picked option 5 for OS version `Monterey` (Wiki recommends between `Monte
 
 Most impressive part is that touchbar also works out of the box. Almost just like the original design. 
 
+![touchbar](https://github.com/user-attachments/assets/b6fcc32d-f324-4972-bf4d-1cd2dd536981)
+
 ## Apple Silicon (M1/M2/M3/M4):
 
 Asahi Linux (usually fedora related) project - https://asahilinux.org
