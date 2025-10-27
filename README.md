@@ -24,3 +24,7 @@ Most impressive part is that touchbar also works out of the box. Almost just lik
 ## Apple Silicon (M1/M2/M3/M4):
 
 Asahi Linux project - https://asahilinux.org
+
+## Regular Intel Macs
+
+Should be much more straightforward. Perhaps just a few wiki articles for broadcom from your distro.
