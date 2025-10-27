@@ -2,7 +2,7 @@
 Collection of personal references for restoring Mac's with Linux
 > I would recommend fedora spins for this because immutability with proprietary drivers is just better.
 
-To check your chip in live env `lspi | grep "Apple Inc."`
+To check your chip in live env `lspci | grep "Apple Inc."`
 
 ## Restoring T2 Macbook Pro 15,1 (Also applies to many of late 2017 to 2020 releases) 
 
@@ -23,7 +23,7 @@ Luckily I tethered USB internet from my phone and used https://wiki.t2linux.org/
 
 Also the method is to curl https://wiki.t2linux.org/tools/firmware.sh
 
-Then `./firmware` where the script was downloaded and pick is actually nbr `3`. A bit confusing. Then I picked option 4 for Big Sur and it downloads the system and extracts the Wifi/Bluetooth support.
+Then `./firmware` where the script was downloaded and pick is actually nbr `3`. A bit confusing. Then I picked option 5 for OS version and it downloads the system and extracts the Wifi/Bluetooth support.
 
 Most impressive part is that touchbar also works out of the box. Almost just like the original design. 
 
