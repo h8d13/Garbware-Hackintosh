@@ -7,18 +7,20 @@ To check your chip in live env `lspci | grep "Apple Inc."`
 ## Restoring T2 Macbook Pro 15,1 FULL-DISK INSTALL (Also applies to many of late 2017 to 2020 releases) 
 
 Followed disk partitionning step from MacOS. 
+Followed initial WiFi instructions to copy to EFI firmware from [T2-Wiki](https://wiki.t2linux.org/guides/wifi-bluetooth/)
+**Please read it better than I did.**
 
-> ⚠️ Important: Don't delete macOS partitions until WiFi is working post-install, do not do full-disk install or you'll lose the EFI firmware like I did. But here is how to do it regardless...
+
+> ⚠️ Note: MacBook Pro 15,1 (2018) and other T2 Macs from 2017-2018 are at end-of-life for macOS support. **Maximum supported macOS: Sequoia (15.x)**. Your Mac will NOT receive further updates or any future versionsbeyond that point. Can see compatinility list [here](https://everymac.com/systems/by_capability/maximum-macos-supported.html)
+
+
+⚠️ Important: Don't delete macOS partitions until WiFi is working post-install, do not do full-disk install or you'll lose the EFI firmware like I did. But here is how to do it regardless...
 
 Combine the ISO pieces from releases:[T2Fedora-Repo](https://github.com/t2linux/fedora-iso) 
 
 `cat name_of_iso_here.iso.* > full.iso`
 
 In the live env Wi-Fi worked out of the box, props to the devs. 
-
-Followed initial WiFi instructions to copy to EFI firmware from [T2-Wiki](https://wiki.t2linux.org/guides/wifi-bluetooth/)
-
-**Please read it better than I did.**
 
 Also had to go into into a TTY: and use `sudo localectl set-x11-keymap fr` for keymap to work with SDDM login screen. 
 
