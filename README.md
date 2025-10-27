@@ -1,5 +1,6 @@
 # Garbware-Hackintosh
 Collection of personal references for restoring Mac's with Linux
+> I would recommend fedora spins for this because immutability with proprietary drivers is just better.
 
 To check your chip in live env `lspi | grep "Apple Inc."`
 
