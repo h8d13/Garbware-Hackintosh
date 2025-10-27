@@ -1,7 +1,9 @@
 # Garbware-Hackintosh
 Collection of personal references for restoring Mac's with Linux
 
-## Restoring T2 Macbook Pro 15,1
+## Restoring T2 Macbook Pro 15,1 (Also applies to many of late 2017 to 2020 releases) 
+
+> For newer M chips see asahilinux and alarm projects.
 
 Made the ISO following: [T2Fedora-Repo](https://github.com/t2linux/fedora-iso)
 In the live env Wi-Fi worked out of the box, props to the devs. 
@@ -9,4 +11,16 @@ In the live env Wi-Fi worked out of the box, props to the devs.
 Followed initial WiFi instructions to copy to EFI firmware, but I don't even think you really need to [T2-Wiki](https://wiki.t2linux.org/guides/wifi-bluetooth/)
 Also had to go into into a TTY: and use `sudo localectl set-x11-keymap fr` for keymap to work with SDDM login screen. 
 
-But then post install wifi was gone again becauseI'm an idiot and deleted everything from the Mac OS partitions.
+But then post install wifi was gone again because, I'm an idiot and deleted everything from the Mac OS partitions.
+
+Luckily I tethered USB internet from my phone and used https://wiki.t2linux.org/guides/wifi-bluetooth/#__tabbed_2_5 **Method 5.** 
+> Funnily enough uses a script from: https://github.com/kholia/OSX-KVM
+
+Also the method is to curl https://wiki.t2linux.org/tools/firmware.sh
+Then is actually nbr 3. A bit confusing. 
+
+Most impressive part is that touchbar also works out of the box. Almost just like the original design. 
+
+## Apple Silicon (M1/M2/M3/M4):
+
+Asahi Linux project - https://asahilinux.org
