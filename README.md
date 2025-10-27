@@ -1,6 +1,8 @@
 # Garbware-Hackintosh
 Collection of personal references for restoring Mac's with Linux
 
+To check your chip in live env `lspi | grep "Apple Inc."`
+
 ## Restoring T2 Macbook Pro 15,1 (Also applies to many of late 2017 to 2020 releases) 
 
 > For newer M chips see asahilinux and alarm projects.
