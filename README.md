@@ -6,7 +6,7 @@ To check your chip in live env `lspci | grep "Apple Inc."`
 
 ## Restoring G5 PowerPC aka Cheese-Grater PPC64
 
-See full explaination [here](https://github.com/h8d13/Mac-G5-2005-Restore)
+See full explaination [here](https://github.com/h8d13/Mac-G5-2005-Restore) and [ArchPower](https://archlinuxpower.org/)
 
 ## Restoring T2 Macbook Pro 15,1 touchbar FULL-DISK INSTALL (Also applies to many of late 2017 to 2020 releases) 
 
