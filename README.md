@@ -2,7 +2,7 @@
 Collection of personal references for restoring Mac's with Linux
 > I would recommend fedora spins for this because immutability with proprietary drivers is just better.
 > 
-> ⚠️ Note: My model and other T2 Macs from 2017-2018 are past end-of-life for macOS support. **Maximum supported macOS: Sequoia (15.x)**. Your Mac will NOT receive further updates or any future versions beyond that version. Can see compatinility list [here](https://everymac.com/systems/by_capability/maximum-macos-supported.html) This also shows how important such linux projects are to hardware conservation WITH updates.
+> ⚠️ Note: My model and other T2 Macs from 2017-2018 are past end-of-life for macOS support. **Maximum supported macOS: Sequoia (15.x)**. Your Mac will NOT receive further upgrades or any future versions beyond that version (perhaps only security UPDATES). Can see compatinility list [here](https://everymac.com/systems/by_capability/maximum-macos-supported.html) This also shows how important such linux projects are to hardware conservation WITH UPGRADES.
 
 To check your chip in live env `lspci | grep "Apple Inc."`
 
