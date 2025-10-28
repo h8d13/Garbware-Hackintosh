@@ -1,6 +1,8 @@
 # Garbware-Hackintosh
 Collection of personal references for restoring Mac's with Linux
 > I would recommend fedora spins for this because immutability with proprietary drivers is just better.
+> 
+> ⚠️ Note: My model and other T2 Macs from 2017-2018 are past end-of-life for macOS support. **Maximum supported macOS: Sequoia (15.x)**. Your Mac will NOT receive further updates or any future versions beyond that version. Can see compatinility list [here](https://everymac.com/systems/by_capability/maximum-macos-supported.html) This also shows how important such linux projects are to hardware conservation WITH updates.
 
 To check your chip in live env `lspci | grep "Apple Inc."`
 
@@ -13,9 +15,6 @@ See full explaination [here](https://github.com/h8d13/Mac-G5-2005-Restore) and [
 Followed disk partitionning step from MacOS. 
 Followed initial WiFi instructions to copy to EFI firmware from [T2-Wiki](https://wiki.t2linux.org/guides/wifi-bluetooth/)
 **Please read it better than I did.**
-
-
-> ⚠️ Note: My model and other T2 Macs from 2017-2018 are past end-of-life for macOS support. **Maximum supported macOS: Sequoia (15.x)**. Your Mac will NOT receive further updates or any future versions beyond that version. Can see compatinility list [here](https://everymac.com/systems/by_capability/maximum-macos-supported.html) This also shows how important such linux projects are to hardware conservation WITH updates.
 
 ⚠️ Important: Don't delete macOS partitions until WiFi is working post-install, do not attempt full-disk install or you'll lose the EFI firmware like I did. But here is how to do it regardless...
 
