@@ -4,6 +4,10 @@ Collection of personal references for restoring Mac's with Linux
 
 To check your chip in live env `lspci | grep "Apple Inc."`
 
+## Restoring G5 PowerPC aka Cheese-Grater PPC64
+
+See full explaination [here](https://github.com/h8d13/Mac-G5-2005-Restore)
+
 ## Restoring T2 Macbook Pro 15,1 touchbar FULL-DISK INSTALL (Also applies to many of late 2017 to 2020 releases) 
 
 Followed disk partitionning step from MacOS. 
